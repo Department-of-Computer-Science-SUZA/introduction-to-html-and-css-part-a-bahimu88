@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="form-container">
+        <label for="fname">Name:</label><br>
+        <input type="text" name="fname" class="inputfield"><br>
+        
+        <label for="lname">Email:</label><br>
+        <input type="email" name="email" class="inputfield"><br>
+
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" class="inputfield"><br><br>
+
+        <label for="gender"><u>Gender:</u></label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="Interests"><u>My Interests:</u></label><br>
+        <input type="checkbox" id="football" name="interests" value="football">
+        <label for="football"> Playing football</label><br>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading"> Reading the book</label><br><br>
+
+        <label for="country"><u>Country:</u></label><br>
+        <select id="country" name="country" class="inputfield">
+            <option value="kenya">Kenya</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="uganda">Uganda</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit" class="submit-button">
+    </form>
+</body>
+
+</html>
